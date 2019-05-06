@@ -1,0 +1,8 @@
+# KiCAD gitignore
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.net
+*.dsn
+fp-info-cache
