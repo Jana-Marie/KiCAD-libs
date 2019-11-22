@@ -1,4 +1,4 @@
-(module LQFP-128_14x14mm_P0.4mm (layer F.Cu) (tedit 5A02F146)
+(module LQFP-128_14x14mm_P0.4mm (layer F.Cu) (tedit 5DD80F53)
   (descr "128 Lead LQFP 14x14 mm (see MICREL LQFP14x14-128LD-PL-1.pdf)")
   (tags "QFP 0.4")
   (attr smd)
@@ -157,6 +157,7 @@
   (pad 126 smd rect (at -5.4 -7.7 90) (size 1 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 127 smd rect (at -5.8 -7.7 90) (size 1 0.2) (layers F.Cu F.Paste F.Mask))
   (pad 128 smd rect (at -6.2 -7.7 90) (size 1 0.2) (layers F.Cu F.Paste F.Mask))
+  (pad 129 smd rect (at 0 0) (size 8 8) (layers F.Cu F.Paste F.Mask))
   (model ${KISYS3DMOD}/Package_QFP.3dshapes/LQFP-128_14x14mm_P0.4mm.wrl
     (at (xyz 0 0 0))
     (scale (xyz 1 1 1))

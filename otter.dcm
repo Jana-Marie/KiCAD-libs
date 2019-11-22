@@ -1,3 +1,11 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP SY8008BAAC
+F https://datasheet.lcsc.com/szlcsc/1810010232_Silergy-Corp-SY8008BAAC_C82161.pdf
+$ENDCMP
+#
+$CMP XL7015
+F http://www.xlsemi.com/datasheet/XL7015%20datasheet-English.pdf
+$ENDCMP
+#
 #End Doc Library
