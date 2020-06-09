@@ -1,9 +1,26 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP LED_BGRA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
+$CMP LED_RGBA
+D RGB LED, red/green/blue/anode
+K LED RGB diode
+F ~
+$ENDCMP
+#
 $CMP R_Small_pol
 D Resistor, small symbol
 K R resistor
 F ~
+$ENDCMP
+#
+$CMP STM32G474CBT6
+D STM32G474CBT6 STM32G474C
+K STM32G474CBT6 STM32G474C
 $ENDCMP
 #
 $CMP SY8008BAAC
@@ -12,6 +29,11 @@ $ENDCMP
 #
 $CMP XL7015
 F http://www.xlsemi.com/datasheet/XL7015%20datasheet-English.pdf
+$ENDCMP
+#
+$CMP lm3406
+D lm3406
+K lm3406
 $ENDCMP
 #
 #End Doc Library
