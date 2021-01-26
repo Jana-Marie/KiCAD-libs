@@ -1,165 +1,30 @@
 EESchema-DOCLIB  Version 2.0
 #
-$CMP 8P8C
-D RJ connector, 8P8C (8 positions 8 connected), RJ31/RJ32/RJ33/RJ34/RJ35/RJ41/RJ45/RJ49/RJ61
-K https://lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors-RJ45-RJ11_CONNFLY-Elec-DS1129-06-S8B0P-X_C86583.html
-F https://lcsc.com/product-detail/Ethernet-Connectors-Modular-Connectors-RJ45-RJ11_CONNFLY-Elec-DS1129-06-S8B0P-X_C86583.html
+$CMP +2V0
+D Power symbol creates a global label with name "+2V5"
+K power-flag
 $ENDCMP
 #
-$CMP BC818
-D 0.8A Ic, 25V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F https://www.fairchildsemi.com/datasheets/BC/BC818.pdf
+$CMP AD8009
+D Single ultrafast 4.5 ns rail-to-rail comparator, MSOP-8
+K comparator latch
+F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
-$CMP BC846
-D 0.1A Ic, 65V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F https://assets.nexperia.com/documents/data-sheet/BC846_SER.pdf
-$ENDCMP
-#
-$CMP BC847
-D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
-K NPN Small Signal Transistor
-F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
-$ENDCMP
-#
-$CMP BC847PN-7-F
-D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F http://www.fairchildsemi.com/ds/BC/BC817.pdf
-$ENDCMP
-#
-$CMP BC848
-D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
-K NPN Small Signal Transistor
-F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
-$ENDCMP
-#
-$CMP BC849
-D 0.1A Ic, 30V Vce, NPN Transistor, SOT-23
-K NPN Small Signal Transistor
-F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
-$ENDCMP
-#
-$CMP BC850
-D 0.1A Ic, 45V Vce, NPN Transistor, SOT-23
-K NPN Small Signal Transistor
-F http://www.infineon.com/dgdl/Infineon-BC847SERIES_BC848SERIES_BC849SERIES_BC850SERIES-DS-v01_01-en.pdf?fileId=db3a304314dca389011541d4630a1657
-$ENDCMP
-#
-$CMP LED_BGRA
-D RGB LED, red/green/blue/anode
-K LED RGB diode
+$CMP PJ-3270
+D Audio Jack, 3 Poles (Stereo / TRS), Grounded Sleeve, Switched TR Poles (Normalling)
+K audio jack receptacle stereo headphones phones TRS connector
 F ~
 $ENDCMP
 #
-$CMP LED_RGBA
-D RGB LED, red/green/blue/anode
-K LED RGB diode
-F ~
+$CMP VDDCLK
+D Power symbol creates a global label with name "+1V2"
+K power-flag
 $ENDCMP
 #
-$CMP MMBT3904
-D 0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23
-K NPN Transistor
-F https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf
-$ENDCMP
-#
-$CMP MMBT5550L
-D 0.6A Ic, 140V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
-$ENDCMP
-#
-$CMP MMBT5551L
-D 0.6A Ic, 160V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F www.onsemi.com/pub/Collateral/MMBT5550LT1-D.PDF
-$ENDCMP
-#
-$CMP RJ31
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ32
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ33
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ34
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ35
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ41
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ45
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ49
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP RJ61
-D RJ connector, 8P8C (8 positions 8 connected)
-K 8P8C RJ female connector
-F ~
-$ENDCMP
-#
-$CMP R_Small_pol
-D Resistor, small symbol
-K R resistor
-F ~
-$ENDCMP
-#
-$CMP STM32G474CBT6
-D STM32G474CBT6 STM32G474C
-K STM32G474CBT6 STM32G474C
-$ENDCMP
-#
-$CMP SY8008BAAC
-F https://datasheet.lcsc.com/szlcsc/1810010232_Silergy-Corp-SY8008BAAC_C82161.pdf
-$ENDCMP
-#
-$CMP UMX1N
-D 0.8A Ic, 45V Vce, NPN Transistor, SOT-23
-K NPN Transistor
-F http://www.fairchildsemi.com/ds/BC/BC817.pdf
-$ENDCMP
-#
-$CMP XL7015
-F http://www.xlsemi.com/datasheet/XL7015%20datasheet-English.pdf
-$ENDCMP
-#
-$CMP lm3406
-D lm3406
-K lm3406
+$CMP VDDIO
+D Power symbol creates a global label with name "+1V2"
+K power-flag
 $ENDCMP
 #
 #End Doc Library
