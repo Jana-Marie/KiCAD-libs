@@ -1,0 +1,17 @@
+#-----------------------------------------------------------
+# Vivado v2020.1 (64-bit)
+# SW Build 2902540 on Wed May 27 19:54:35 MDT 2020
+# IP Build 2902112 on Wed May 27 22:43:36 MDT 2020
+# Start of session at: Fri Feb 19 19:50:04 2021
+# Process ID: 1570870
+# Current directory: /home/janhenrik/kiCAD/KiCAD-libs
+# Command line: vivado
+# Log file: /home/janhenrik/kiCAD/KiCAD-libs/vivado.log
+# Journal file: /home/janhenrik/kiCAD/KiCAD-libs/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project /home/janhenrik/mipi/hdmi_out/hdmi_out.xpr
+update_compile_order -fileset sources_1
+open_bd_design {/home/janhenrik/mipi/hdmi_out/hdmi_out.srcs/sources_1/bd/ps_clock/ps_clock.bd}
+open_bd_design {/home/janhenrik/mipi/hdmi_out/hdmi_out.srcs/sources_1/bd/ps_clock/ps_clock.bd}
+synth_design -rtl -name rtl_1

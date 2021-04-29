@@ -5,6 +5,12 @@ D Power symbol creates a global label with name "+2V5"
 K power-flag
 $ENDCMP
 #
+$CMP 12-22_R6GHC-A30_2C
+D Dual LED, common anode on pin 3
+K LED diode bicolor dual
+F ~
+$ENDCMP
+#
 $CMP 49F-1201GYD2NL
 D LAN Transformer Jack, RJ45, 10/100 BaseT
 K lan jack transformer
