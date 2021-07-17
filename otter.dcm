@@ -29,6 +29,11 @@ K comparator latch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
+$CMP FAN65004B
+D FAN65004B wide  VIN  highly  efficient, integrated  synchronous  buckregulator
+F https://www.onsemi.com/pdf/datasheet/fan65004b-d.pdf
+$ENDCMP
+#
 $CMP HR961160C
 D LAN Transformer Jack, RJ45, 10/100 BaseT
 K lan jack transformer
@@ -105,6 +110,22 @@ $CMP RJ61_Shielded
 D RJ connector, 8P8C (8 positions 8 connected), Shielded
 K 8P8C RJ female connector
 F ~
+$ENDCMP
+#
+$CMP STL6P3LLH6
+D P-MOSFET transistor, drain/gate/source
+K transistor PMOS P-MOS P-MOSFET
+F ~
+$ENDCMP
+#
+$CMP STUSB4700
+D STUSB4700 autonomous USB power delivery controller optimized as a provider
+K USB PD Power Delivrey
+$ENDCMP
+#
+$CMP USB2517
+D USB2517 USB hub 7 Port
+K USB2517 USB hub 7 Port
 $ENDCMP
 #
 $CMP VDDCLK
