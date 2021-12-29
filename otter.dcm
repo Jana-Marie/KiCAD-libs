@@ -29,6 +29,11 @@ K comparator latch
 F https://www.analog.com/media/en/technical-documentation/data-sheets/171112f.pdf
 $ENDCMP
 #
+$CMP AMG8834
+D GridEye Sensor
+K GridEye 8x8 sensor, AMG88xx, thermal
+$ENDCMP
+#
 $CMP FAN65004B
 D FAN65004B wide  VIN  highly  efficient, integrated  synchronous  buckregulator
 F https://www.onsemi.com/pdf/datasheet/fan65004b-d.pdf
@@ -40,10 +45,19 @@ K lan jack transformer
 F https://productfinder.pulseeng.com/doc_type/WEB301/doc_num/JXD6-0001NL/doc_part/JXD6-0001NL.pdf
 $ENDCMP
 #
+$CMP IQS572
+D Projected capacitive trackpad/touchscreen controller with proximity, touch, snap, trackpad outputs and gestures.
+$ENDCMP
+#
 $CMP KH-5220-A56_U.FL
 D Antenna with extra pin for shielding
 K antenna
 F ~
+$ENDCMP
+#
+$CMP OV6946
+D OV6946 Image sensor
+K OV6946 Image sensor, 400x400px, 0.9x0.9mm
 $ENDCMP
 #
 $CMP PJ-3270
@@ -121,6 +135,11 @@ $ENDCMP
 $CMP STUSB4700
 D STUSB4700 autonomous USB power delivery controller optimized as a provider
 K USB PD Power Delivrey
+$ENDCMP
+#
+$CMP TLV9001
+D TLV9001
+K SOT23-5 OPAMP
 $ENDCMP
 #
 $CMP USB2517
