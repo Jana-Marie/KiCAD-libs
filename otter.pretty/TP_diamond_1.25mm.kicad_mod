@@ -1,0 +1,9 @@
+(module TP_diamond_1.25mm (layer F.Cu) (tedit 6197FCEA)
+  (fp_text reference REF** (at 0 0.5) (layer F.SilkS) hide
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value TP_diamond_1.25mm (at 0 -0.5) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 smd roundrect (at 0 0 45) (size 1.25 1.25) (layers F.Cu) (roundrect_rratio 0.05))
+)
