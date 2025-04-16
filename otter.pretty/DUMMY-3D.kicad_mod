@@ -1,0 +1,143 @@
+(footprint "DUMMY-3D"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "90511ff6-5c20-40e8-81b7-f0bec06d021b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "DUMMY-3D"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "31003bfc-e800-49c6-85d4-f0a3ef4bcbe9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "39645684-1117-4a01-b3c9-895a597b4386")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7cdb50ff-4858-4aec-b791-3d7e1249c7c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "73e46b81-0987-408b-a5a3-e07e5c0b3c32")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 0)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "7ecbbb32-882b-432a-a1ef-777964ce16bf")
+	)
+	(fp_line
+		(start 0 -5)
+		(end 0 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco1.User")
+		(uuid "3e910304-92c6-4a0b-a630-b96a8ac4bdd2")
+	)
+	(fp_line
+		(start -5 0)
+		(end 0 5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "bb34d484-06aa-4796-ae5d-0f53e3f5d5f5")
+	)
+	(fp_line
+		(start 0 -5)
+		(end -5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "ea90efc1-b0e7-4f1a-a51e-ddd1271d7274")
+	)
+	(fp_line
+		(start 0 5)
+		(end 5 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "5fd2eea0-cf6b-42ab-95fd-e21fc1ad69c6")
+	)
+	(fp_line
+		(start 5 0)
+		(end 0 -5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "Eco2.User")
+		(uuid "25bd900f-a945-4ad3-9094-501fb81f2bde")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c03b9190-a8c0-4e20-8e1d-22d9e931581f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+)

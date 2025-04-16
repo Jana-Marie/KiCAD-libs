@@ -1,23 +1,101 @@
-(footprint "C_0402" (version 20221018) (generator pcbnew)
-  (layer "F.Cu")
-  (descr "Capacitor 0402")
-  (tags "C Capacitor 0402")
-  (attr smd)
-  (fp_text reference "REF**" (at 0 -0.75) (layer "F.SilkS")
-      (effects (font (size 0.45 0.45) (thickness 0.1)))
-    (tstamp a6e0de9a-3035-40c4-a122-d4965e1b3e3b)
-  )
-  (fp_text value "C_0402" (at 0 -1.325) (layer "F.Fab") hide
-      (effects (font (size 1 1) (thickness 0.15)))
-    (tstamp bfda775f-3f02-47b6-be29-b8039aaf466e)
-  )
-  (fp_line (start 0 0.15) (end 0 -0.15)
-    (stroke (width 0.12) (type solid)) (layer "F.SilkS") (tstamp cf1107ff-9e6e-4e0e-b8e4-30f4640d896b))
-  (pad "1" smd rect (at -0.47 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp cbc75444-81e8-4228-8e35-3bb259a0f587))
-  (pad "2" smd rect (at 0.47 0) (size 0.5 0.6) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp a98b66be-46ad-4edc-856f-9bf904388e3b))
-  (model ":KICAD7_3DMODEL_DIR:Capacitor_SMD.3dshapes/C_0402_1005Metric.stpZ"
-    (offset (xyz 0 0 0))
-    (scale (xyz 1 1 1))
-    (rotate (xyz 0 0 0))
-  )
+(footprint "C_0402"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Capacitor 0402")
+	(tags "C Capacitor 0402")
+	(property "Reference" "REF**"
+		(at 0 -0.75 0)
+		(layer "F.SilkS")
+		(uuid "a6e0de9a-3035-40c4-a122-d4965e1b3e3b")
+		(effects
+			(font
+				(size 0.45 0.45)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "C_0402"
+		(at 0 -1.325 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bfda775f-3f02-47b6-be29-b8039aaf466e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c8837c80-ba59-4970-935b-6066247dee2c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "236bdbd1-7975-4c31-9502-1c90e202effa")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "163a489d-38a6-4e86-9f9b-dd0f10ae5592")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start 0 0.15)
+		(end 0 -0.15)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "cf1107ff-9e6e-4e0e-b8e4-30f4640d896b")
+	)
+	(pad "1" smd rect
+		(at -0.47 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cbc75444-81e8-4228-8e35-3bb259a0f587")
+	)
+	(pad "2" smd rect
+		(at 0.47 0)
+		(size 0.5 0.6)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "a98b66be-46ad-4edc-856f-9bf904388e3b")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0402_1005Metric.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )
